@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import pic1 from "./pic/Untitled1.png"
+import pic2 from "./pic/Capture.PNG";
+import pic3 from "./pic/Capture2.PNG";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <img alt="loading" src={pic1}/>
+        <div> - откройте task 1.1.js</div>
+        <div> - Выполните задания</div>
+        <div> - В терминале запустите тесты(Yarn test)</div>
+        <div> - Так выглядит консоль когда ошибок нет</div>
+        <img alt="loading" src={pic2}/>
+        <div> - Так выглядит при ошибке в решении</div>
+        <img alt="loading" src={pic3}/>
     </div>
   );
 }
